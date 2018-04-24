@@ -3,7 +3,7 @@ This brings a new Send E-mail Action for Sitecore 9 Forms, enabling the submissi
 
 # Installation #
 1. Download last packages from
-https://bitbucket.org/nishtechinc/formssendmail/src/c746250215d2d5c4a5bdfcfbeafa914b3edd3e50/Packs/?at=master
+https://bitbucket.org/nishtechinc/formssendmail/src/7e943104a21f3d04500ac3713af894ca53da3f57/Sitecore%20Packages/?at=master
     2. Package 1 - Sitecore 9 Forms - Send Email Action-1.x.zip - All files and items needed for the Send E-mail Action
     3. Package 2 - Sitecore 9 Forms - Test Send Email Form-1.x.zip - Test Send E-mail Form for quick testing the form
 4. Install Package 1 to have the Action installed
