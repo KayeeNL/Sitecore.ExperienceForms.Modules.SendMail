@@ -32,7 +32,7 @@ Dictionary items used at this Action are stored under the Default Global Diction
 If you installed the second package and want to use the Test Send E-mail Form, make sure to add an MVC Form Rendering (/sitecore/layout/Renderings/System/Forms/Mvc Form) to a placeholder in a page. After that, you can Preview the item with the Test Form and submit to have the E-mail message being sent. 
 
 ### Debug ###
-* If anything goes wrong it will be logged to Sitecore log files with the following pattern:
+* If anything goes wrong the Exception will be logged to Sitecore log files with the following pattern:
     * [SendMail Action] Error sending e-mail based on template {ID}
 
 # Implementation #
