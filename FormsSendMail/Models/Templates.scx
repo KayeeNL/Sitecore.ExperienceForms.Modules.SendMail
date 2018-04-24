@@ -1,0 +1,49 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="13" designerY="17">
+    <template templatename="Css Class" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="CssClass">
+      <section id="{4EF217ED-8B8C-482E-AD65-668BC853A249}" name="Content">
+        <field id="{F4F3CF95-EE5A-49D4-9C05-E4E49BD33B68}" name="Css Class" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="CssClasses" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="12" designerY="95">
+    <template templatename="Css Class Folder" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="CssClassFolder" />
+  </shape>
+  <shape designerX="632" designerY="17">
+    <template templatename="Sample Item" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="SampleItem">
+      <section id="{AE76A034-9491-4B83-99F5-39F227D6FB59}" name="Data">
+        <field id="{75577384-3C97-45DA-A847-81B00500E250}" name="Title" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Title" />
+        <field id="{A60ACD61-A6DB-4182-8329-C957982CEC74}" name="Text" shared="0" source="/sitecore/system/Settings/Html Editor Profiles/Rich Text Default" type="Rich Text" unversioned="0" propertyname="Text" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="13" designerY="212">
+    <template templatename="Html Tag Folder" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="HtmlTagFolder" />
+  </shape>
+  <shape designerX="14" designerY="138">
+    <template templatename="Html Tag" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="HtmlTag">
+      <section id="{8D91D489-47FB-4FFC-B6A3-4DD1C51773DC}" name="Content">
+        <field id="{E8A6BF20-AA31-4A9D-AD23-B6573CD52514}" name="Html Tag" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Tag" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="292" designerY="17">
+    <template templatename="_Simple Container Parameters" templateid="{00000000-0000-0000-0000-000000000000}" templateuri="///{00000000-0000-0000-0000-000000000000}" classname="__SimpleContainerParameters">
+      <section id="{CCCA5277-1E20-4E37-A032-F7038EF93E96}" name="Container Settings">
+        <field id="{22D04661-2FD6-4835-9831-56EC13F0090E}" name="HideContainer" shared="0" source="" type="Checkbox" unversioned="0" propertyname="HideContainer" />
+        <field id="{D3AF9D43-B373-4537-B3CC-69DEC5FB19B7}" name="CssClasses" shared="0" source="/sitecore/system/Modules/Grids/Css Classes/Container" type="Multilist" unversioned="0" propertyname="CssClasses" />
+        <field id="{24BF21C5-F2C0-4D82-B261-E1157269B5C3}" name="ContainerTag" shared="0" source="/sitecore/system/Modules/Grids/HTML Tags" type="Droplink" unversioned="0" propertyname="ContainerTag" />
+        <field id="{68B19F56-73F9-4BC2-883C-F39910E21770}" name="ContainerId" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="ContainerId" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="288" designerY="161">
+    <template templatename="_Multicolumn Equal Sizes Parameters" templateid="{AD3EE504-C109-46AA-9689-4C7881FC09E4}" templateuri="/http://sc9u1.local/master/{AD3EE504-C109-46AA-9689-4C7881FC09E4}" classname="__MulticolumnEqualSizesParameters">
+      <section id="{6D2337DF-40D7-4CC0-AC13-CBB9EB3D52F0}" name="Container Settings">
+        <field id="{0A086007-F76D-4475-A4C3-D9994C1959D6}" name="HideRow" shared="0" source="" type="Checkbox" unversioned="0" propertyname="HideRow" />
+        <field id="{95757897-D614-4E16-8E43-7E9DC6DCFC1B}" name="RowCssClasses" shared="0" source="/sitecore/system/Modules/Grids/Css Classes/Multicolumn/Row" type="Multilist" unversioned="0" propertyname="RowCssClasses" />
+        <field id="{0CE9031B-FF0B-451C-8879-D4AC55D5574E}" name="ColumnCssClasses" shared="0" source="/sitecore/system/Modules/Grids/Css Classes/Multicolumn/Column" type="Multilist" unversioned="0" propertyname="ColumnCssClasses" />
+      </section>
+    </template>
+  </shape>
+</CodeGeneration>

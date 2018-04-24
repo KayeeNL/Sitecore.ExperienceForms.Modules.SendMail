@@ -1,0 +1,150 @@
+----item----
+version: 1
+id: {58F9D615-D327-48F1-9B45-F608420DA767}
+database: master
+path: /sitecore/Forms/Test Send E-mail/Page/Number
+parent: {0D025640-1B37-4166-89D8-0E552431420C}
+name: Number
+master: {00000000-0000-0000-0000-000000000000}
+template: {E8D5A5A3-6430-4701-BAAD-1DB1947616CC}
+templatekey: Number
+created: 20180424T122718Z
+
+----field----
+field: {9F7DA002-7B86-436B-8DDA-7EFE5837B88E}
+name: Min Length
+key: min length
+content-length: 0
+
+
+----field----
+field: {71061C01-A495-4BF3-A52C-D378346BFAE2}
+name: Max Length
+key: max length
+content-length: 0
+
+
+----field----
+field: {908DFDA2-33DF-4325-AD07-EAEEBA7510F8}
+name: Step
+key: step
+content-length: 0
+
+
+----field----
+field: {8A43AF61-0812-4B37-A343-96CDE3F12BB1}
+name: Required
+key: required
+content-length: 0
+
+
+----field----
+field: {10E5829A-1943-4597-B9EE-406CE3D13E13}
+name: Validations
+key: validations
+content-length: 0
+
+
+----field----
+field: {467C22B4-B1A2-4620-B8BB-74C2D8B369FC}
+name: Label Css Class
+key: label css class
+content-length: 0
+
+
+----field----
+field: {D99833EA-238A-4505-90EF-C69BF3EBA946}
+name: Is Tracking Enabled
+key: is tracking enabled
+content-length: 1
+
+1
+----field----
+field: {7ABAA3F6-6EC0-4B65-A463-7919BFAE55AA}
+name: Css Class
+key: css class
+content-length: 0
+
+
+----field----
+field: {90C4F94C-EC2C-4EE4-B4C8-F3E29CBE630E}
+name: Allow Save
+key: allow save
+content-length: 1
+
+1
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{5B153FC0-FC3F-474F-8CB8-233FB1BEF292}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----version----
+language: en
+version: 1
+revision: 6df6e5cc-9e4f-4b9d-a8af-ca2aff0ff3aa
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 6
+
+Number
+----field----
+field: {B775BCA9-2605-4D60-B367-A0C354BE2504}
+name: Default Value
+key: default value
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\rpeplau
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180420T163103Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\rpeplau
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6df6e5cc-9e4f-4b9d-a8af-ca2aff0ff3aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180420T163420Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\rpeplau

@@ -1,0 +1,117 @@
+----item----
+version: 1
+id: {8C926DEA-1023-4FD2-B86F-FA6228F96694}
+database: master
+path: /sitecore/system/Settings/Forms/E-mail Templates/Test E-mail
+parent: {6CB46292-ED4C-4DEF-BDC0-D76B7E3C75BD}
+name: Test E-mail
+master: {00000000-0000-0000-0000-000000000000}
+template: {6EE6C18A-EAE2-4A2E-87ED-52869BD8DF06}
+templatekey: E-mail Template
+created: 20180424T122607Z
+
+----version----
+language: en
+version: 1
+revision: 77c6dc1e-d740-48fc-9bf2-67a8fbf39e96
+
+----field----
+field: {CB1504B6-4A81-4B89-8734-D18516561F2C}
+name: Subject
+key: subject
+content-length: 26
+
+Hardcoded part | {Subject}
+----field----
+field: {2D90C128-A08D-4D2D-8064-6D8F003ABFE8}
+name: From
+key: from
+content-length: 6
+
+{From}
+----field----
+field: {B82156D3-0831-4BF9-84F9-7AF086E007A5}
+name: To
+key: to
+content-length: 24
+
+hardcoded@test.com, {To}
+----field----
+field: {BE516C58-EFF8-4FAF-8A43-900D2EA80543}
+name: Cc
+key: cc
+content-length: 24
+
+hardcoded@test.com, {CC}
+----field----
+field: {3811345B-B1C0-4673-A2B9-21731A6DC95E}
+name: Bcc
+key: bcc
+content-length: 5
+
+{BCC}
+----field----
+field: {639F3622-932E-423D-988B-61D002243840}
+name: Message RichText
+key: message richtext
+content-length: 756
+
+<p>And here goes the Richtext message</p>
+<p><strong>Subject:</strong> {Subject}</p>
+<p><strong>From:</strong>&nbsp;{From}</p>
+<p><strong>To:</strong>&nbsp;{To}</p>
+<p><strong>CC:</strong>&nbsp;{CC}</p>
+<p><strong>BCC:</strong>&nbsp;{BCC}</p>
+<p><strong>Message:</strong>&nbsp;{Message}</p>
+<p><strong>Number:</strong>&nbsp;{Number}</p>
+<p><strong>Phone:</strong>&nbsp;{Phone}</p>
+<p><strong>Checkbox:</strong>&nbsp;{Checkbox}</p>
+<p><strong>Date:</strong>&nbsp;{Date}</p>
+<p><strong>Dropdown:</strong>&nbsp;{Dropdown}</p>
+<p><strong>Listbox:</strong>&nbsp;{Listbox}</p>
+<p><strong>CheckboxList:</strong>&nbsp;{CheckboxList}</p>
+<p><strong>RadioButtonList:</strong>&nbsp;{RadioButtonList}</p>
+<p><strong>Password:</strong>&nbsp;{Password}</p>
+<p>&nbsp;</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180424T122607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+77c6dc1e-d740-48fc-9bf2-67a8fbf39e96
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20180424T122657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

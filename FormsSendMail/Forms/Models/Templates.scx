@@ -1,0 +1,18 @@
+﻿<CodeGeneration Generator="Template Class">
+  <shape designerX="9" designerY="11">
+    <template templatename="E-mail Template" templateid="{6EE6C18A-EAE2-4A2E-87ED-52869BD8DF06}" templateuri="/sc9u1.local/master/{6EE6C18A-EAE2-4A2E-87ED-52869BD8DF06}" classname="EmailTemplate">
+      <section id="{CAEB61B0-FF39-463C-8B6C-08FC20083849}" name="E-mail Setup">
+        <field id="{CB1504B6-4A81-4B89-8734-D18516561F2C}" name="Subject" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Subject" />
+        <field id="{2D90C128-A08D-4D2D-8064-6D8F003ABFE8}" name="From" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="From" />
+        <field id="{B82156D3-0831-4BF9-84F9-7AF086E007A5}" name="To" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="To" />
+        <field id="{BE516C58-EFF8-4FAF-8A43-900D2EA80543}" name="Cc" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Cc" />
+        <field id="{3811345B-B1C0-4673-A2B9-21731A6DC95E}" name="Bcc" shared="0" source="" type="Single-Line Text" unversioned="0" propertyname="Bcc" />
+        <field id="{639F3622-932E-423D-988B-61D002243840}" name="Message RichText" shared="0" source="site:Richtext Editor Profile" type="Rich Text" unversioned="0" propertyname="MessageRichText" />
+        <field id="{3ABF6EAC-3308-40D2-9BF8-0D6F41F65E5C}" name="Message Text" shared="0" source="" type="Multi-Line Text" unversioned="0" propertyname="MessageText" />
+      </section>
+    </template>
+  </shape>
+  <shape designerX="240" designerY="11">
+    <template templatename="E-mail Templates Folder" templateid="{4530888F-600C-4D40-9269-3BA82DDABD67}" templateuri="/sc9u1.local/master/{4530888F-600C-4D40-9269-3BA82DDABD67}" classname="EmailTemplatesFolder" />
+  </shape>
+</CodeGeneration>

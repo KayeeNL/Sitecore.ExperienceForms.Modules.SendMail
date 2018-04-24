@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsSendMail", "FormsSendMail\FormsSendMail.csproj", "{BE22C8C8-7888-4337-A855-3B4859DF3E96}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Master", "TDS.Master\TDS.Master.scproj", "{235B6EB2-B2F8-4788-9748-779AAD1BC549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{8F097515-3675-4BB5-9C7B-E35CE3285709}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "TDS.Core", "TDS.Core\TDS.Core.scproj", "{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE22C8C8-7888-4337-A855-3B4859DF3E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE22C8C8-7888-4337-A855-3B4859DF3E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE22C8C8-7888-4337-A855-3B4859DF3E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE22C8C8-7888-4337-A855-3B4859DF3E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235B6EB2-B2F8-4788-9748-779AAD1BC549}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3123E9-FFAD-4433-A9F3-EEE36E18A01D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
