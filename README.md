@@ -4,16 +4,16 @@ This brings a new Send E-mail Action for Sitecore 9 Forms, enabling the submissi
 # Installation #
 1. Download last packages from
 https://bitbucket.org/nishtechinc/formssendmail/src/c746250215d2d5c4a5bdfcfbeafa914b3edd3e50/Packs/?at=master
-    1.1. Sitecore 9 Forms - Send Email Action-1.x.zip - All files and items needed for the Send E-mail Action
-    1.2. Sitecore 9 Forms - Test Send Email Form-1.x.zip - Test Send E-mail Form for quick testing the form
-2. Install 1.1. to have the Action installed
-3. (Optional) Install 1.2. to have the Test Send-Email Form
-5. Setup your SMTP server by editing /App_Config/Include/smtp.config and modify it to your SMTP server. Default values will use localhost a port 25, which is good for development with a tool such as SMTP4DEV (https://archive.codeplex.com/?p=smtp4dev)
-      <setting name="MailServer" set:value="localhost"/>
-      <setting name="MailServerUserName" set:value=""/>
-      <setting name="MailServerPassword" set:value=""/>
-      <setting name="MailServerPort" set:value="25"/>
-4. Publish + Reindex
+    2. Package 1 - Sitecore 9 Forms - Send Email Action-1.x.zip - All files and items needed for the Send E-mail Action
+    3. Package 2 - Sitecore 9 Forms - Test Send Email Form-1.x.zip - Test Send E-mail Form for quick testing the form
+4. Install Package 1 to have the Action installed
+5. (Optional) Install Package 2 to have the Test Send-Email Form
+6. Setup your SMTP server by editing /App_Config/Include/smtp.config and modify it to your SMTP server. Default values will use localhost a port 25, which is good for development with a tool such as SMTP4DEV (https://archive.codeplex.com/?p=smtp4dev)
+    1. <setting name="MailServer" set:value="localhost"/>
+    1. <setting name="MailServerUserName" set:value=""/>
+    1. <setting name="MailServerPassword" set:value=""/>
+    1. <setting name="MailServerPort" set:value="25"/>
+7. Publish + Reindex
 
 # Configurations #
 ### E-mail Templates ###
