@@ -1,0 +1,81 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore 9 Forms - Test Send Email Form</PackageName>
+      <Author>Rodrigo Peplau</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/{4A8719C2-B6E7-43A5-AAFA-7B7F8D1CCE13}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/{0D025640-1B37-4166-89D8-0E552431420C}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/BCC/{92871975-B330-4A30-A28D-C68A48530802}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CC/{F7B83A87-6CC8-4047-860C-461BCB2B361A}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Checkbox/{EFA0BC96-268C-4E70-94FD-EC31190C4E34}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/{6E9E782E-7CD9-4DB5-BF5A-D912B01DC57F}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/Settings/{878C744E-6A8C-4503-9BFF-622B87A3FF43}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/Settings/Datasource/{6A34F699-6806-4594-A794-ABEE3AD68454}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/Settings/Datasource/Hello/{9FAECF79-4429-48B1-A69E-1B32438D60A9}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/Settings/Datasource/I love you/{DF76A179-1579-46C7-8CA8-1905DDFE7515}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/CheckboxList/Settings/Datasource/Wont you tell me your name/{3723A8E6-D403-4C4A-9AB4-F1C318377A85}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Date/{920710F7-6E94-4CDE-88FC-42AEEC837131}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/{1269EAEB-318F-42E3-87D7-97800864F2BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/Settings/{1C46C742-FCDA-4659-9DCD-413916EC6555}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/Settings/Datasource/{1C2E0E24-A101-4C32-B79A-58552F844184}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/Settings/Datasource/Maybe/{E3EC70D7-7D15-4981-8619-76717AA31ED0}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/Settings/Datasource/No/{0891A212-C240-441F-8546-96262551A57B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Dropdown/Settings/Datasource/Yes/{A8A479A0-3684-49F6-ABB4-44DA8529E68A}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/From/{883AD0B8-6FFB-4361-B518-6B726911D69C}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/{A99F1947-ADDF-4C60-80CA-E76AF89EA49B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/Settings/{C35F38A8-69FD-4C34-AF7D-31ACF2CE12E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/Settings/Datasource/{B2ADA709-A7F3-48A5-B6D4-119A76DA6C19}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/Settings/Datasource/Maybe/{8BCD759F-9EBC-4477-87FD-F04F2625A203}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/Settings/Datasource/No/{E27FA1F8-6AB3-4C8D-BA8B-C351D28BA55D}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Listbox/Settings/Datasource/Yes/{ACB262A8-AD1A-4650-840F-14D292047977}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Message/{7E1695F0-6BF2-4DF9-A6E7-663999D88C50}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Number/{58F9D615-D327-48F1-9B45-F608420DA767}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Password/{F2592CA0-AFEC-402C-89A3-566AE05E7570}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Phone/{9DFA1E90-E826-4CFB-B1F7-E1008450D10F}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/{22E476F1-AB86-48FE-8C16-D4123C1E8E6B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/Settings/{FAA23465-A1B6-436D-BF96-BB6A13D9DEA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/Settings/Datasource/{A857D584-87A6-41AE-B3A0-F7C1CBF0A830}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/Settings/Datasource/Maybe/{1F194E4E-7BA5-469F-B539-DD38AC51947E}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/Settings/Datasource/No/{50F8B0B2-4BD9-4A88-9508-BE3D66B0D433}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/RadioButtonList/Settings/Datasource/Yes/{B2BC2540-CEC8-4728-8BD0-2C1553C66C03}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Subject/{C70B9577-2C86-485C-BD86-089AE69B98ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Submit Button/{BC20B0D2-9226-4498-AF4C-81BBCD5F7725}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Submit Button/SubmitActions/{1A58074F-0A1B-499F-AE27-38D1FC69DC7B}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Submit Button/SubmitActions/Send E-mail/{E36F4D69-D600-4D67-9B9B-E8E4A01FDAE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/Forms/Test Send E-mail/Page/To/{E9D605F0-DBCC-451D-ABD3-CC2ACE04D103}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Test Send Email Form</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
