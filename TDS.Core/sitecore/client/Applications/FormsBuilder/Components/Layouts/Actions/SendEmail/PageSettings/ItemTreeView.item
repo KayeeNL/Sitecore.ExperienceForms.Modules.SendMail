@@ -14,9 +14,9 @@ created: 20180424T114605Z
 field: {0CC7F24B-2013-46C6-8AE3-5233D094FF7C}
 name: StaticData
 key: staticdata
-content-length: 48
+content-length: 38
 
-/sitecore/content/Settings/Data/E-mail Templates
+{6CB46292-ED4C-4DEF-BDC0-D76B7E3C75BD}
 ----field----
 field: {4CEC56F0-9FE2-4980-8085-62B0A0AB51EC}
 name: Database
@@ -156,7 +156,7 @@ sitecore\admin
 ----version----
 language: en
 version: 1
-revision: ab3213c2-6740-4c7a-b27e-898de1f27ff4
+revision: 6b8e2c8a-303e-4cfe-a900-27ae4a6f8429
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -185,14 +185,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ab3213c2-6740-4c7a-b27e-898de1f27ff4
+6b8e2c8a-303e-4cfe-a900-27ae4a6f8429
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20180420T141604Z
+20180424T143938Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
