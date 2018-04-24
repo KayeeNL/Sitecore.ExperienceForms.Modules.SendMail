@@ -31,6 +31,9 @@ Dictionary items used at this Action are stored under the Default Global Diction
 ### Test Send Email Form ###
 If you installed the second package and want to use the Test Send E-mail Form, make sure to add an MVC Form Rendering (/sitecore/layout/Renderings/System/Forms/Mvc Form) to a placeholder in a page. After that, you can Preview the item with the Test Form and submit to have the E-mail message being sent. 
 
+# Implementation #
+Please check this article (yet to come) for details on the implementation.
+
 # What is this repository for? #
 * Implemenetation of Sitecore 9 Forms - Send E-mail Action
 * Documentation of the action implementation
