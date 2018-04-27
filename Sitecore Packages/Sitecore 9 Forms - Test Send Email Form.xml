@@ -58,11 +58,21 @@
         <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Submit Button/SubmitActions/{1A58074F-0A1B-499F-AE27-38D1FC69DC7B}/invariant/0</x-item>
         <x-item>/master/sitecore/Forms/Test Send E-mail/Page/Submit Button/SubmitActions/Send E-mail/{E36F4D69-D600-4D67-9B9B-E8E4A01FDAE8}/invariant/0</x-item>
         <x-item>/master/sitecore/Forms/Test Send E-mail/Page/To/{E9D605F0-DBCC-451D-ABD3-CC2ACE04D103}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Forms/E-mail Templates/Test E-mail/{8C926DEA-1023-4FD2-B86F-FA6228F96694}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />

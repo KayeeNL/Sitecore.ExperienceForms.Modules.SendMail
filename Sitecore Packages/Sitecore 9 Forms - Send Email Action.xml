@@ -129,12 +129,20 @@
     <xitems>
       <Entries>
         <x-item>/master/sitecore/system/Settings/Forms/E-mail Templates/{6CB46292-ED4C-4DEF-BDC0-D76B7E3C75BD}/invariant/0</x-item>
-        <x-item>/master/sitecore/system/Settings/Forms/E-mail Templates/Test E-mail/{8C926DEA-1023-4FD2-B86F-FA6228F96694}/invariant/0</x-item>
       </Entries>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include />
