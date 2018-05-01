@@ -81,6 +81,11 @@ namespace FormsSendMail.Forms.Actions
             }
         }
 
+        /// <summary>
+        /// Fills an specific MailAddressCollection with emails taken from an array of strings
+        /// </summary>
+        /// <param name="emails"></param>
+        /// <param name="collection"></param>
         protected void FillMailAddressCollection(string[] emails, MailAddressCollection collection)
         {
             foreach (var email in emails)
