@@ -16,15 +16,22 @@ https://bitbucket.org/nishtechinc/formssendmail/src/7e943104a21f3d04500ac3713af8
 7. Publish + Reindex
 
 # Configurations #
+### Step by Step ###
+* Create an E-mail Templates under /sitecore/system/Settings/Forms/E-mail Templates
+* Fill up fields Subject, From, To, Cc, Bcc and either Message RichText or Message Text
+* Add Keywords using the syntax: {FieldName} in all of these fields to have them being replaced with data typed by the user at the Form
+* Add a Send E-mail Action to your form and select the E-mail Template you created
+* Add your form to a Page using the MVC Form Component
+* Browse your Form Page, fill the form and submit
+
+If a Send E-mail Action is correctly added to your Form and linked to a valid template,the form will send an e-mail.
+
 ### E-mail Templates ###
-* Create E-mail Templates under /sitecore/system/Settings/Forms/E-mail Templates - This is the root folder of the "Select E-mail Template" dialog that appears when the Send E-mail Action is added to a form.
+* E-mail Templates are stored under /sitecore/system/Settings/Forms/E-mail Templates - This is the root folder of the "Select E-mail Template" dialog that appears when the Send E-mail Action is added to a form.
     * You can MOVE this folder to anywhere at the Database. The reference to it is setup to this Item ID at core:/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmail/PageSettings/ItemTreeView 
 Check the TDS item at https://bitbucket.org/nishtechinc/formssendmail/src/c746250215d2d5c4a5bdfcfbeafa914b3edd3e50/TDS.Core/sitecore/client/Applications/FormsBuilder/Components/Layouts/Actions/SendEmail/PageSettings/ItemTreeView.item?at=master&fileviewer=file-view-default
     * If you want to use another folder item with a different ID, you have to adjust the item above to point to your new ID
-* Fill up field Subject, From, To, Cc, Bcc and either Message RichText or Message Text
-* Add Keywords using the syntax {FieldName} in all of these fields to have them being replaced with data typed by the user at the Form
-* If a Send E-mail Action is attached to a Form and linked to a correct template, when the form is submitted it will send an e-mail with the parsed E-mail Template using the SMTP server setup at SItecore.
-
+    
 ### Dictionary Items ###
 Dictionary items used at this Action are stored under the Default Global Dictionary of Sitecore, at path /sitecore/system/Dictionary/Forms/Actions/SendMail. You can move these Dictionary Entries to any other Dictionary if you want, and also modify their Texts, just make sure you don't change their Keys so the code can find them.
 
