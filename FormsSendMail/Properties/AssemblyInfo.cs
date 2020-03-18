@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DynamicPlaceholderGrids")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FormsSendMail")]
+[assembly: AssemblyDescription("Save Action that sends email in Sitecore 9 Forms")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DynamicPlaceholderGrids")]
+[assembly: AssemblyCompany("Nish Tech Inc")]
+[assembly: AssemblyProduct("FormsSendMail")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
